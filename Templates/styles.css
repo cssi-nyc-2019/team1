@@ -26,7 +26,11 @@ html {
 
 body {
   background:$body-bg;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1{
+  text-shadow: 2px 2px 2px white;
 }
 
 a {
@@ -44,9 +48,11 @@ a {
   max-width:600px;
   margin:40px auto;
   border-radius:$br;
-  box-shadow:0 4px 10px 4px rgba($form-bg,.3);
+  box-shadow:0 4px 10px 4px black;
+  background-image: url("https://66.media.tumblr.com/e125ebacc90677b8b64df738c9a71608/tumblr_osrrcpzFWi1uzwgsuo1_400.gif");
+  background-repeat: no-repeat;
+  background-size: 800px;
 }
-
 .tab-group {
   list-style:none;
   padding:0;
@@ -187,13 +193,14 @@ textarea {
   width:100%;
 }
 
+.button-block:hover {
+  text-shadow:1px 1px 3px black;
+  box-shadow: 5px 5px black;
+}
+
 .forgot {
   margin-top:-20px;
   text-align:right;
 }
 
-.form {
-  background-image: url("https://66.media.tumblr.com/e125ebacc90677b8b64df738c9a71608/tumblr_osrrcpzFWi1uzwgsuo1_400.gif");
-  background-repeat: no-repeat;
-  background-size: 800px;
-}
+
