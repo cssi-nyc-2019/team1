@@ -25,10 +25,16 @@ class HomeHandler(webapp2.RequestHandler):
     home_template = jinja_current_directory.get_template("templates/home.html")
     self.response.write(home_template.render())
 
+class AboutHandler(webapp2.RequestHandler):
+  def get(self):
+    about_template = jinja_current_directory.get_template("templates/about.html")
+    self.response.write(about_template.render())
+
 
 # the app configuration section	
 app = webapp2.WSGIApplication([
   ('/', LoginHandler),
+  ('/about', AboutHandler),
   ('/login', LoginHandler),
   ('/home', HomeHandler),
-  ], debug=True)
+], debug=True)
