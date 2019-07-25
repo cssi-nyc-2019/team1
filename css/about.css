@@ -1,11 +1,5 @@
 body{
-  color: ;
-  background-image: linear-gradient(pink,purple: 
-}
-
-p{
-  font:cursive;
-  font-size: 25px
-}
-
+  height: 200px;
+  background-color: red;
+  background-image: linear-gradient(pink,purple); 
 
