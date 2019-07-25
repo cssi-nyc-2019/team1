@@ -4,6 +4,9 @@ body{
   background-image: linear-gradient(purple,pink); 
 }
 
+h1 {
+  color: lightgray;
+}
 p{
-  color:grey;
+  color: white;
 }
